@@ -1,3 +1,56 @@
-<h1>Hi</h1>
-<h1>Hi</h1>
-<h1>Hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin:0;
+        padding: 0;
+    }
+    div{
+        width: 60%;
+        height: 100%;
+        background-color: rebeccapurple;
+    }
+
+    aside{
+        width: 20%;
+        height: 100%;
+        background-color: hotpink;
+    }
+
+    header, footer{
+        width: 100%;
+        height: 100px;
+        background-color: grey;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+</style>
+<body>
+    <section>  
+        <header></header>
+            <main>
+                <aside>aside</aside>
+                <div>div</div>
+                <aside></aside>
+            </main>
+        <footer></footer>
+    </section>
+</body>
+</html>
